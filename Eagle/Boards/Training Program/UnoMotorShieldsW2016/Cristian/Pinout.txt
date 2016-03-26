@@ -1,0 +1,24 @@
+
+digital pin 0: hc06 rx*
+digital pin 1: hc06 tx*
+digital pin 2: motor 2 direction a
+digital pin 3: motor 2 pwm enable
+digital pin 4: motor 1 direction a
+digital pin 5: motor 1 pwm enable
+digital pin 6: not connected (I have room for something if you want it added..)
+digital pin 7: motor 2 direction b
+digital pin 8: motor 1 direction b
+digital pin 9: hc06 tx*
+digital pin 10: hc06 rx*
+digital pin 11: servo PWM control
+digital pin 12: SR04 trig
+digital pin 13: SR04 echo
+
+Analogue pin 0: bumper 1
+Analogue pin 1: bumper 2
+Analogue pin 2: line following 1
+Analogue pin 3: line following 2
+Analogue pin 4: not connected (spi interface)
+Analogue pin 5: not connected (spi interface)
+
+* there is a switch that will route the bluetooth to either pins 0/1 or 9/10 depending on it's position, as I still see a lot of tutorials using pins 0 and 1 for the hc06 module
