@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.127" altunitdist="mm" altunit="mm"/>
+<grid distance="1.27" unitdist="mm" unit="inch" style="lines" multiple="1" display="no" altdistance="0.127" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -214,11 +214,6 @@
 <rectangle x1="67.31" y1="53.34" x2="72.39" y2="57.15" layer="1"/>
 <dimension x1="0" y1="127" x2="88.9" y2="129.54" x3="44.45" y3="130.81" textsize="6.4516" layer="20" dtype="horizontal" unit="inch" visible="yes"/>
 <dimension x1="88.9" y1="0" x2="88.9" y2="127" x3="-2.54" y3="63.5" textsize="6.4516" layer="20" dtype="vertical" unit="inch" visible="yes"/>
-<hole x="3" y="124" drill="3.2"/>
-<hole x="83" y="124" drill="3.2"/>
-<hole x="83" y="4" drill="3.2"/>
-<hole x="3" y="4" drill="3.2"/>
-<text x="6" y="100" size="6.4516" layer="21">80x120 mm M3</text>
 </plain>
 <libraries>
 <library name="e14_Rpi2_RevA">
@@ -2085,7 +2080,6 @@ design rules under a new name.
 <wire x1="79.375" y1="48.895" x2="79.375" y2="49.53" width="0.6096" layer="16"/>
 <wire x1="79.375" y1="49.53" x2="79.629" y2="49.784" width="0.6096" layer="16"/>
 <wire x1="79.629" y1="49.784" x2="79.629" y2="50.546" width="0.6096" layer="16"/>
-<wire x1="79.375" y1="48.895" x2="80.137" y2="48.895" width="0.6096" layer="16"/>
 </signal>
 <signal name="S$24">
 <wire x1="6.35" y1="57.15" x2="11.43" y2="57.15" width="2.1844" layer="16"/>
@@ -2713,76 +2707,6 @@ design rules under a new name.
 </signal>
 <signal name="S$81">
 <wire x1="44.958" y1="3.302" x2="44.958" y2="1.143" width="1.016" layer="16"/>
-</signal>
-<signal name="S$82">
-<wire x1="79.502" y1="46.355" x2="80.137" y2="46.355" width="0.6096" layer="16"/>
-</signal>
-<signal name="S$83">
-<wire x1="72.898" y1="45.085" x2="72.263" y2="45.085" width="0.6096" layer="16"/>
-</signal>
-<signal name="S$84">
-<wire x1="15.875" y1="48.895" x2="16.764" y2="48.895" width="0.6096" layer="16"/>
-</signal>
-<signal name="S$85">
-<wire x1="9.398" y1="47.625" x2="8.382" y2="47.625" width="0.6096" layer="16"/>
-</signal>
-<signal name="S$86">
-<wire x1="16.002" y1="45.085" x2="16.637" y2="45.085" width="0.6096" layer="16"/>
-</signal>
-<signal name="S$87">
-<wire x1="9.271" y1="28.575" x2="8.382" y2="28.575" width="0.6096" layer="16"/>
-</signal>
-<signal name="S$88">
-<wire x1="16.002" y1="29.845" x2="16.51" y2="29.845" width="0.6096" layer="16"/>
-</signal>
-<signal name="S$89">
-<wire x1="79.248" y1="27.305" x2="80.391" y2="27.305" width="0.6096" layer="16"/>
-</signal>
-<signal name="S$90">
-<wire x1="73.025" y1="26.035" x2="72.009" y2="26.035" width="0.6096" layer="16"/>
-</signal>
-<signal name="S$91">
-<wire x1="74.93" y1="24.13" x2="71.12" y2="24.13" width="0.6096" layer="16"/>
-<wire x1="68.58" y1="25.4" x2="68.58" y2="24.13" width="0.6096" layer="16"/>
-<wire x1="70.358" y1="24.13" x2="69.85" y2="24.13" width="0.6096" layer="16"/>
-<wire x1="69.85" y1="24.13" x2="68.58" y2="25.4" width="0.6096" layer="16"/>
-<wire x1="68.58" y1="25.4" x2="69.85" y2="25.4" width="0.6096" layer="16"/>
-<wire x1="69.85" y1="25.4" x2="68.58" y2="24.13" width="0.6096" layer="16"/>
-<wire x1="68.58" y1="24.13" x2="69.85" y2="24.13" width="0.6096" layer="16"/>
-<wire x1="69.85" y1="24.13" x2="69.85" y2="24.638" width="0.6096" layer="16"/>
-<wire x1="69.85" y1="24.638" x2="69.85" y2="25.4" width="0.6096" layer="16"/>
-<wire x1="69.85" y1="25.4" x2="69.977" y2="25.273" width="0.6096" layer="16"/>
-<wire x1="70.612" y1="24.638" x2="71.12" y2="24.13" width="0.6096" layer="16"/>
-<wire x1="71.12" y1="24.13" x2="70.358" y2="24.13" width="0.6096" layer="16"/>
-<wire x1="70.358" y1="24.13" x2="69.85" y2="24.638" width="0.6096" layer="16"/>
-<wire x1="69.85" y1="24.638" x2="67.818" y2="24.638" width="0.6096" layer="16"/>
-<wire x1="67.818" y1="24.638" x2="67.31" y2="24.13" width="0.6096" layer="16"/>
-<wire x1="67.818" y1="24.638" x2="68.58" y2="25.4" width="0.6096" layer="16"/>
-<wire x1="68.58" y1="24.13" x2="67.31" y2="24.13" width="0.6096" layer="16"/>
-<wire x1="64.77" y1="20.32" x2="64.77" y2="21.59" width="0.6096" layer="16"/>
-<wire x1="64.77" y1="21.59" x2="67.31" y2="24.13" width="0.6096" layer="16"/>
-<wire x1="67.31" y1="24.13" x2="67.31" y2="22.86" width="0.6096" layer="16"/>
-<wire x1="67.31" y1="20.32" x2="67.31" y2="12.7" width="0.6096" layer="16"/>
-<wire x1="67.31" y1="12.7" x2="63.5" y2="12.7" width="0.6096" layer="16"/>
-<wire x1="63.5" y1="12.7" x2="63.5" y2="20.32" width="0.6096" layer="16"/>
-<wire x1="63.5" y1="20.32" x2="64.77" y2="21.59" width="0.6096" layer="16"/>
-<wire x1="64.77" y1="21.59" x2="66.04" y2="21.59" width="0.6096" layer="16"/>
-<wire x1="66.04" y1="21.59" x2="67.31" y2="20.32" width="0.6096" layer="16"/>
-<wire x1="67.31" y1="20.32" x2="67.31" y2="22.86" width="0.6096" layer="16"/>
-<wire x1="67.31" y1="22.86" x2="64.77" y2="20.32" width="0.6096" layer="16"/>
-<wire x1="64.77" y1="20.32" x2="64.135" y2="20.32" width="0.6096" layer="16"/>
-<wire x1="64.008" y1="20.32" x2="64.135" y2="20.32" width="0.6096" layer="16"/>
-<wire x1="64.135" y1="20.32" x2="67.056" y2="23.241" width="0.6096" layer="16"/>
-<wire x1="67.056" y1="23.241" x2="67.056" y2="20.701" width="0.6096" layer="16"/>
-<wire x1="67.056" y1="20.701" x2="66.548" y2="20.193" width="0.6096" layer="16"/>
-<wire x1="66.548" y1="20.193" x2="65.405" y2="20.193" width="0.6096" layer="16"/>
-<wire x1="65.405" y1="20.193" x2="65.151" y2="20.447" width="0.6096" layer="16"/>
-<wire x1="65.151" y1="20.447" x2="65.532" y2="20.447" width="0.6096" layer="16"/>
-<wire x1="65.532" y1="20.447" x2="66.802" y2="21.717" width="0.6096" layer="16"/>
-<wire x1="66.802" y1="21.717" x2="66.802" y2="20.955" width="0.6096" layer="16"/>
-<wire x1="66.802" y1="20.955" x2="66.167" y2="20.32" width="0.6096" layer="16"/>
-<wire x1="75.057" y1="24.638" x2="70.612" y2="24.638" width="0.6096" layer="16"/>
-<wire x1="70.612" y1="24.638" x2="69.977" y2="25.273" width="0.6096" layer="16"/>
 </signal>
 </signals>
 </board>
